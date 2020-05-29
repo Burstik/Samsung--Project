@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/gameButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="100"
+        android:ellipsize="middle"
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:background="@color/colorButtonFon"
+        android:textColor="@color/colorButtonText"
+        android:text="@string/gameButton"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/recordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="90"
+        android:background="@color/colorButtonFon"
+        android:textColor="@color/colorButtonText"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="@string/recordsButton" />
+
+    <Button
+        android:id="@+id/settingButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="80"
+        android:background="@color/colorButtonFon"
+        android:textColor="@color/colorButtonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/settingButton" />
+
+    <Button
+        android:id="@+id/rulesButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="70"
+        android:background="@color/colorButtonFon"
+        android:textColor="@color/colorButtonText"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/rulesButton" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="60"
+        android:background="@color/colorButtonFon"
+        android:textColor="@color/colorButtonText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="@string/exitButton"  />
+</LinearLayout>

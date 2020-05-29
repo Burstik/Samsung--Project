@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="@+id/settingButton"
+    android:focusableInTouchMode="true"
+    android:windowSoftInputMode="stateHidden|adjustResize"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical"
+        android:padding="3dip"
+        android:textSize="24sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="@string/playerName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/playerName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Качанов Андрей"
+            android:inputType="text"
+            android:padding="3dip"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Размеры поля"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="ширина"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/boardWidth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="10"
+                android:inputType="numberDecimal"
+                android:minWidth="150dp"
+                android:padding="3dip"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="высота"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/boardHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:autofillHints=""
+                android:hint="10"
+                android:inputType="numberDecimal"
+                android:minWidth="150dp"
+                android:padding="3dip"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+       <!--<RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вариант игры">
+
+            <RadioButton
+                android:id="@+id/gameTipAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Взрослая"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/gameTipChild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Детская"
+                android:textSize="24sp" />
+        </RadioGroup>-->
+
+        <Button
+            android:id="@+id/settingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorButtonFon"
+            android:onClick="onClickSettingButton"
+            android:text="ГОТОВО"
+            android:textColor="@color/colorButtonText"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+        <requestFocus />
+        </Button>
+
+    </LinearLayout>
+</ScrollView>

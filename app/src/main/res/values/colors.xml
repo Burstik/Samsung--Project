@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Определения цветов. -->
+    <color name="colorPrimaryGame">#1B5E20</color>
+    <color name="colorPrimaryDarkGame">#7F00BF89</color>
+    <color name="colorAccentGame">#AEEA00</color>
+    <color name="colorButtonText">#1B5E20</color>
+    <color name="colorButtonFon">#7F00BF89</color>
+    <color name="colorTransparent">#000000</color>
+</resources>

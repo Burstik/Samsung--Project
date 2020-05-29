@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Лабиринт</string>
+
+
+    <!-- наименование активностей (окон) -->
+    <string name="main">Base Screen</string>
+    <string name="rules">Правила игры</string>
+    <string name="setting">Настройки</string>
+
+    <!-- кнопки -->
+    <string name="gameButton">ИГРАТЬ</string>
+    <string name="recordsButton">РЕКОРДЫ</string>
+    <string name="settingButton">НАСТРОЙКИ</string>
+    <string name="rulesButton">ПРАВИЛА</string>
+    <string name="exitButton">ВЫХОД</string>
+    <string name="exitRulesButton">все ясно</string>
+
+    <!-- для окна game -->
+    <string name="game_resume">Создай свой лабиринт и нажми СТАРТ ...</string>
+    <string name="buttonGo"> СТАРТ </string>
+    <string name="buttonNew"> X </string>
+    <string name="textButtonUp"><![CDATA[>]]></string>
+    <string name="textButtonDown"><![CDATA[<]]></string>
+
+    <!-- правила игры -->
+    <string name="long_rules">
+        Цель игры - задержать путника лабиринта на максимальное количество ходов. \n\n
+        Построение лабиринта происходит путем установки препятствий (стен). \n
+        Качество лабиринта определяется необходимым количеством ходов, которые требуются для выхода. \n
+        Выход находится в правом нижнем углу. \n
+        Алгоритм перемещения путника неоптимальный и всегда одинаковый. Поняв особенности алгоритма можно строить все более сложные лабиринты. \n
+        Результат подсчитывается как количество ходов, потраченных на движение от точки старта до выхода.\n
+        По окончании игры его можно запомнить в итоговой таблице\n\n
+        Изменить размеры лабиринта можно в меню настройки\n\n
+        Успешной игры!
+    </string>
+    <string name="playerName">Имя игрока</string>
+
+</resources>
